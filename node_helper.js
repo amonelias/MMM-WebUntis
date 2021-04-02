@@ -22,7 +22,7 @@ module.exports = NodeHelper.create({
   },
 
   fetchTimetable: function(school, url, classname, days){
-    let curr = new Date // get current date
+    let curr = new Date
 
     let firstday = new Date(curr.setDate(curr.getDate()))
     let lastday = new Date(curr.setDate(curr.getDate() + days))
