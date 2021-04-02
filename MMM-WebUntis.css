@@ -1,0 +1,74 @@
+/* Magic Mirror
+ * Stylesheet: MMM-WebUntis
+ *
+ * By amonelias https://github.com/amonelias
+ * MIT Licensed.
+ */
+
+#timetable{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    line-height: 1;
+}
+
+.column {
+    flex: 1 1 0px;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#period-column {
+    min-width: 30px;
+    max-width: 60px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid gray;
+}
+
+#legend, .day {
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+}
+
+.period {
+    display: flex;
+    flex-direction: column;
+}
+
+.period-starttime, .period-endtime {
+    font-size: 13px;
+}
+
+.period-starttime {
+    align-self: flex-start;
+}
+
+.period-endtime {
+    align-self: flex-end;
+}
+
+.period-number {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.lessons{
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: smaller;
+    font-size: 18px;
+}
+
+.period, .lesson {
+    border-bottom: 1px solid gray;
+}
