@@ -59,7 +59,7 @@ module.exports = NodeHelper.create({
           })
   },
 
-  // output results in file for debugging
+  // output results in file
   printJSONToFile: function(timetable){
     fs.writeFile("modules/MMM-WebUntis/output.json", JSON.stringify(timetable, null, 4), 'utf8', function (err){
       if (err) {
