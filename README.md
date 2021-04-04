@@ -8,7 +8,7 @@ A MagicMirror² module to display WebUntis timetables.
 ## Installation
 1. Navigate to the `/modules` folder of you MagicMirror²
 2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-WebUntis.git`
-3. Install dependencies using the following command: `npm install`
+3. Navigate to the `/MMM-WebUntis` folder and install dependencies using the following command: `npm install`
 
 ## Config
 <table>
