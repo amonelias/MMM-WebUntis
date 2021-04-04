@@ -27,7 +27,7 @@ A MagicMirror² module to display WebUntis timetables.
     </tr>
     <tr>
       <td><code>url</code></td>
-      <td>WebUntis URL to fetch data from<br><br><strong>Type:</strong> <code>string</code></td>
+      <td>WebUntis URL of the school<br><br><strong>Type:</strong> <code>string</code></td>
     </tr>
     <tr>
       <td><code>school</code></td>
