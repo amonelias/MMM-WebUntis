@@ -1,0 +1,15 @@
+{
+    "name": "MMM-WebUntis",
+    "version": "1.0.0",
+    "description": "A MagicMirror² module to display WebUntis timetables.",
+    "main": "MMM-WebUntis.js",
+    "author": "amonelias",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amonelias/MMM-WebUntis"
+      },
+    "dependencies": {
+      "webuntis": "latest"
+    }
+  }
