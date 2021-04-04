@@ -5,7 +5,6 @@ A MagicMirror² module to display WebUntis timetables.
 
 - [webuntis](https://www.npmjs.com/package/webuntis)
 
-
 ## Installation
 1. Navigate to the `/modules` folder of you MagicMirror²
 2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-WebUntis.git`
@@ -60,7 +59,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
     module: 'MMM-WebUntis',
     position: 'top_right', // any possible region
     config: {
-      refreshTime: 10000,
+      refreshTime: 100000,
       url: "",
       school: "",
       class: "",
